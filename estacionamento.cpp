@@ -24,6 +24,6 @@ int main(int argc, char** argv) {
 	setlocale(LC_CTYPE, "portuguese_brazil");
 	estacionamento r1;
 	r1.insira_dados();
-	cout<<"O seu total a pagar é: "<<r1.valor();
+	cout<<"O seu total a pagar Ã©: "<<r1.valor();
 	return 0;
 }
