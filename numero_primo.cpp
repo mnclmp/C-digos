@@ -6,7 +6,7 @@ bool primo (int n, int d) {
 	if (n <= 1) {
 		return false;
 		for (d = 2; d < n; d++) {
-			if (n%d == 0) { /* d é dividido por n?*/
+			if (n%d == 0) { /* d Ã© dividido por n?*/
 			return false;
 			}
 			return true;
@@ -18,11 +18,11 @@ int main(int argc, char** argv) {
 	
 	int n, d;
 	
-	cout<<"Digite um número"<<endl;
+	cout<<"Digite um nÃºmero"<<endl;
 	cin>>n>>d;
 	
      	if (primo(n, d))  {
-     		cout<< "É primo"<<endl;	
+     		cout<< "Ã‰ primo"<<endl;	
 		 }
 		 else{
 		 	cout<<"Nao eh primo"<<endl;
